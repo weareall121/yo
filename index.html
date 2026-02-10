@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yo.shit.vc - Quick Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+        .link {
+            display: flex;
+            align-items: center;
+            padding: 18px 25px;
+            margin: 15px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s;
+            font-size: 1.1em;
+        }
+        .link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        .link .emoji {
+            font-size: 1.5em;
+            margin-right: 15px;
+        }
+        .link .text {
+            flex: 1;
+        }
+        .link .url {
+            font-size: 0.7em;
+            opacity: 0.8;
+            display: block;
+            margin-top: 3px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.85em;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔗 yo.shit.vc</h1>
+        <p class="subtitle">Quick access to all my links</p>
+        
+        <a href="/ig" class="link">
+            <span class="emoji">📸</span>
+            <span class="text">
+                Instagram
+                <span class="url">yo.shit.vc/ig</span>
+            </span>
+        </a>
+        
+        <a href="/yt" class="link">
+            <span class="emoji">🎥</span>
+            <span class="text">
+                YouTube
+                <span class="url">yo.shit.vc/yt</span>
+            </span>
+        </a>
+        
+        <a href="/tw" class="link">
+            <span class="emoji">🐦</span>
+            <span class="text">
+                Twitter
+                <span class="url">yo.shit.vc/tw</span>
+            </span>
+        </a>
+        
+        <a href="/gh" class="link">
+            <span class="emoji">💻</span>
+            <span class="text">
+                GitHub
+                <span class="url">yo.shit.vc/gh</span>
+            </span>
+        </a>
+        
+        <footer>
+            <a href="http://freedns.afraid.org/" target="_blank">Free DNS</a> by afraid.org
+        </footer>
+    </div>
+</body>
+</html>
